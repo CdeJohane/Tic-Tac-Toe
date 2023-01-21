@@ -1,0 +1,42 @@
+:root{
+  background-color: aqua;
+}
+
+#Header{
+  display: flex;
+  height: 10%;
+  min-height: 100px;
+  max-height: 150px;
+  font-size: 35px;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+#body #board{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 10px;
+}
+
+
+
+#body #board .square:active{
+  background-color: blueviolet;
+}
